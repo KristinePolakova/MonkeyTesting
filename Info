@@ -1,1 +1,29 @@
 Monkey testing https://www.saucedemo.com/cart.html
+
+Evaluation of quality in use:
+1.	Functionality - 1 
+ The application has multiple functional issues ranging from UI elements like the logo not being clickable,
+which is a common user expectation, to more critical ones such as the inability to change item quantities and buttons not responding. 
+These problems suggest that there are several bugs that prevent users from completing standard e-commerce tasks smoothly,
+which significantly impacts the overall functionality of the website. And as customer we would not use this application,
+probably it would be enough with two errors for us to close the application.
+It does not seem to be reliable enough for us to spend our money there or leave our credentials in it.
+2.	Usability – 2
+Cached application issues lead to a frustrating user experience, as users face difficulties in completing basic tasks like browsing items,
+updating their shopping cart and checking out. Error explanation messages are incomplete and are not fully displayed. This website should work 
+as e-commerce platform allowing users to select and purchaser items, but it does not do it all the time, so it isn’t very useful.
+As for time for learning then users do not need much time to understand the layout of the application because it is typical layout of the e-commerce site.
+Language for items descriptions seems fine, but there was that name “T - Shirt” divided into two lines. Items are missing product description messages 
+with dimensions, colors, sizes. 
+3.	Accessibility - 2
+Visual impairment – for low vision check I zoomed in for 200%. Then I clicked to menu and All items, this menu stays open and product images are not shown 
+because menu covers them. I checked this application in https://userway.org/accessibility-checker/?url=https://www.saucedemo.com
+It Accessibility score is 59%, it found 3 violations and High lawsuit risk. For blind 3 fail (2 times form field lacks a <label> element and heading level skipped),
+for deafblind 2 fail (form field lacks a <label> element). When checking application with NVDA screen reading software user can’t access all without mouse, because 
+all elements are not properly labeled. And since not all of UI elements function correctly then visually impaired people can’t use this application. 
+Pluss for this website is that for all of its images there is alt text, which describes the image content. 
+People with seizure disorders can use this application because there isn’t flashing content.
+For cognitive impaired people this application isn’t simple to use because not all of its UI elements function and isn’t reliable all the time and 
+this can be very frustrating. For people with motor impairment it is a big minus that you can’t navigate thought the application using only keyboard 
+and not all items are clickable
+
